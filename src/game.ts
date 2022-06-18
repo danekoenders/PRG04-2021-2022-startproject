@@ -41,7 +41,6 @@ class Game {
             let lonelyFish = new Fish(this.loader.resources["fishTexture"].texture!, this.loader.resources["bonesTexture"].texture!)
             this.pixi.stage.addChild(lonelyFish)
             this.fishes.push(lonelyFish)
-            
         }
 
         this.shark = new Shark(this.loader.resources["sharkTexture"].texture!)

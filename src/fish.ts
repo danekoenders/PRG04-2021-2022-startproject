@@ -22,9 +22,9 @@ export class Fish extends PIXI.Sprite {
         this.on('pointerdown', () => this.fishClicked())
     }
 
-   public swim() {
+    public swim() {
         this.x -= this.speed
-        if(this.x < -100) {
+        if (this.x < -100) {
         this.x = window.innerWidth + 100 
         this.y = Math.random() * window.innerHeight
         }
@@ -40,11 +40,10 @@ export class Fish extends PIXI.Sprite {
     }
 
     public hitShark () {
-        console.log("Hit shark")
         this.texture  = this.deadTexture
 
         if (this.texture = this.deadTexture){
-
+            
         }
     }
 }

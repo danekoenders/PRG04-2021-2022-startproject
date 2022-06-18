@@ -37153,7 +37153,6 @@ class Fish extends _pixiJs.Sprite {
         this.texture = this.deadTexture;
     }
     hitShark() {
-        console.log("Hit shark");
         this.texture = this.deadTexture;
         this.texture = this.deadTexture;
     }
